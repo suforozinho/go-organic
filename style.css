@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #AAA;
+}
+
+.container {
+	background-image: url(images/fruit-wallpaper-hd.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 900px;
+	margin: 0 auto;
+}
+
+nav {
+	margin: 0;
+	background: rgba(0,0,0, 0.4)
+}
+
+ul {
+	text-align: center;
+	padding: 5px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 3px;
+}
+
+li a {
+	color: white;
+}
+
+li::after {
+	content: "|";
+	margin-left: 3px;
+	color: white;
+}
+
+li:first-child {
+	margin-left: none;
+}
+
+li:last-child::after {
+	content: "";
+}
+
+
+a {
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	color: white;
+}
+
+.card {
+	width: 200px;
+	height: 300px;
+	border: 1px solid green;
+	background: white;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.first-card {
+	margin-left: 130px;
+}
+
+.change {
+	margin-top: 3em;
+}
+
+p .button {
+	background: #ef764a;
+	color: white;
+	padding: 1em;
+	box-shadow: 0 1px 1px rgba(0,0,0, 0.4)
+}
+
+.second-card {
+}
+
+.ponce-de-leon {
+	padding-top: 1em;
+}
+
+.store {
+	margin-top: 3em;
+}
+
+.buckhead {
+	padding-top: 1em;
+}
